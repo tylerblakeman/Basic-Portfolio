@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    border-bottom-color: darkslategrey;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0px;
+    width: auto;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+}
+
+.links {
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+span {
+    display: flex;
+    margin: 10px;
+    border-right-width: 1px;
+    padding-right: 20px;
+    border-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+    justify-content: right;
+}
+
+.noborder {
+    border-width: 0px;
+    margin-right: 200px;
+}
+
+.text {
+    margin: 0px;
+    align-items: bottom;
+    justify-content: center;
+}
+
+.text img {
+    margin: 20px;
+    border-radius: 15px;
+    width: auto;
+    height: 200px;
+    float: left;
+}
+
+.text1 img {
+    margin: 20px;
+    border-radius: 15px;
+    width: auto;
+    height: 200px;    
+}
+
+.heading {
+    padding: 0% 0% 0% 0%;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    border-bottom-style: solid;
+}
+
+.contents {
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    margin-left: 10%;
+    width: 960px;
+}
+
+form {
+    margin: 20px;
+}
+
+/* this was taken from w3 schools */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
