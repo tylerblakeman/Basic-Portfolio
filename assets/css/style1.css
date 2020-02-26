@@ -1,4 +1,7 @@
 
+html {
+    overflow-y: scroll;
+  }
 
 nav, div, body {
     padding: 0px;
