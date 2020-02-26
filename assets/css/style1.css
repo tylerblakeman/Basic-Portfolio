@@ -7,18 +7,20 @@ nav, div, body {
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 .border {
     width: 100%;
     border-bottom-style: solid;
-    border-color: black;
-    border-bottom-width: 1px;
+    border-color: #cccccc;
+    border-bottom-width: 2px;
     margin: 0px;
 }
 
 .brand {
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     padding: 10px;
     background-color:#4AAAA5;
@@ -35,20 +37,23 @@ nav, div, body {
     flex-flow: wrap;
     justify-items: center;
     margin: auto;
+    background-color: #ffffff;
 }
 .links {
     display: flex;
     padding: 10px 0px 10px 10px;
     flex-flow: wrap;
+
 }
+
 .links a {
     margin-right: 20px;
     border-right: solid;
     padding-right: 20px;
     border-right-width: 1px;
-    color: black;
     align-content: center;
     margin-left: 10px;
+    color: #777777;
 }
 
 .noborder a {
@@ -70,25 +75,26 @@ a {
     max-width: 960px;
     justify-content: space-around;
     flex-flow: wrap;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
+    background-color: #ffffff;
+    border-color: #dddddd;
 }
 
 footer {
     display: flex;
-    flex-direction: row;
     width: auto;
     justify-content: center;
-    flex-flow: wrap;
     justify-items: center;
-    margin: auto;
     color: white;
     padding: 20px;
     font-size: .25em;
     border-top-style: solid;
     border-top-color:#4AAAA5;
     border-top-width: 5px;
-    background-color: #666666; 
+    background-color: #666666;
+    flex-shrink: 0;
+
 }
 
 .heading {
@@ -101,6 +107,7 @@ footer {
     margin: 10px;
     font-size: .75em;
     padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .contents {
     display: flex;
