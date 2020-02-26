@@ -67,7 +67,6 @@ a {
     max-width: 960px;
     justify-content: space-around;
     flex-flow: wrap;
-    justify-items: center;
     border-width: 1px;
     border-style: solid;
 }
@@ -81,6 +80,11 @@ footer {
     justify-items: center;
     margin: auto;
     color: white;
+    padding: 20px;
+    font-size: .25em;
+    border-top-style: solid;
+    border-top-color:#4AAAA5;
+    border-top-width: 5px;
     background-color: #666666; 
 }
 
@@ -95,3 +99,68 @@ footer {
     font-size: .75em;
     padding-left: 10px;
 }
+.contents {
+    display: flex;
+    justify-content: left;
+}
+
+.text {
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.text1 {
+    margin: 0px;
+    align-items: bottom;
+    justify-content: center;
+    margin: 20px;
+    max-width: 960px;
+}
+    
+.text1 img {
+    margin: 20px;
+    padding: 0px;
+    border-radius: 15px;
+    width: auto;
+    height: 200px;
+    float: left;
+}
+
+
+.float {
+    overflow-wrap: normal;
+}
+
+img {
+    padding: 20px;
+    height: 200px;
+    width: auto;
+}
+
+form {
+    margin: 20px;
+}
+
+/* this was taken from w3 schools */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
