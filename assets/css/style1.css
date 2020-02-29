@@ -84,6 +84,8 @@ a {
 footer {
     display: flex;
     width: auto;
+    position: fixed;
+    bottom: 0;
     justify-content: center;
     justify-items: center;
     color: white;
@@ -94,7 +96,7 @@ footer {
     border-top-width: 5px;
     background-color: #666666;
     flex-shrink: 0;
-
+    width: 100%;
 }
 
 .heading {
@@ -109,6 +111,7 @@ footer {
     padding-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .contents {
     display: flex;
     justify-content: left;
